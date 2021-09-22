@@ -13,4 +13,9 @@ class CalculatorTest {
         assertEquals(23, calc.getSum(11,12));
     }
 
+    @Test
+    void getSub(){
+        assertEquals(23, calc.getSub(35,12));
+    }
+
 }
